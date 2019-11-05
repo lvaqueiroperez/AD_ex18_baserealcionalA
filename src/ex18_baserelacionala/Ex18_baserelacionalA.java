@@ -67,7 +67,7 @@ public class Ex18_baserelacionalA {
 
             stm.executeUpdate("insert into produtos values('" + codigo + "','" + desc + "','" + prezo + "')");
 
-            //AL ESTAR EL AUITOCOMMIT ACTIVO, NO DEJA HACER COMMITS
+            //AL ESTAR EL AUTOCOMMIT ACTIVO, NO DEJA HACER COMMITS
             //conn.commit();
             System.out.println("Insertado !");
 
